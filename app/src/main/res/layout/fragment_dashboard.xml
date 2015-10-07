@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.altfuns.ica.DashboardFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/pickup_button"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/ic_recoleccion"
+                    android:drawablePadding="4dp"
+                    android:text="@string/pickup" />
+                <Button
+                    android:id="@+id/renewable_button"
+                    android:layout_weight="1"
+                    android:drawablePadding="4dp"
+                    android:drawableTop="@drawable/ic_recoleccion"
+                    android:text="@string/renewable_waste" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/activities_button"
+                    android:layout_weight="1"
+                    android:drawablePadding="4dp"
+                    android:drawableTop="@drawable/ic_actividades"
+
+                    android:text="@string/activities" />
+                <Button
+                    android:id="@+id/education_button"
+                    android:layout_weight="1"
+                    android:drawablePadding="4dp"
+                    android:drawableTop="@drawable/ic_educacion"
+                    android:text="@string/education" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</FrameLayout>

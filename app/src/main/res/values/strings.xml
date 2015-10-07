@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ICA</string>
+
+    <string name="title_section1">ICA</string>
+    <string name="title_section2">Compartir</string>
+    <string name="title_section3">Contactos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="pickup">Recolección</string>
+    <string name="renewable_waste">Valorizables</string>
+    <string name="activities">Actividades</string>
+    <string name="education">Educación</string>
+</resources>
