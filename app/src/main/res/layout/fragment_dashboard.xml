@@ -17,12 +17,13 @@
                     android:layout_weight="1"
                     android:drawableTop="@drawable/ic_recoleccion"
                     android:drawablePadding="4dp"
-                    android:text="@string/pickup" />
+                    android:text="@string/pickup"
+                    android:onClick="openPickup"/>
                 <Button
                     android:id="@+id/renewable_button"
                     android:layout_weight="1"
                     android:drawablePadding="4dp"
-                    android:drawableTop="@drawable/ic_recoleccion"
+                    android:drawableTop="@drawable/ic_infografias"
                     android:text="@string/renewable_waste" />
             </TableRow>
             <TableRow

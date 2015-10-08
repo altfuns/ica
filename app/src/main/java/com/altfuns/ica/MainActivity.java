@@ -3,6 +3,7 @@ package com.altfuns.ica;
 import android.app.Activity;
 import android.content.res.Configuration;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -113,7 +114,10 @@ public class MainActivity extends AppCompatActivity {
             Fragment fragment = (Fragment) fragmentClass.newInstance();
             // Insert the fragment by replacing any existing fragment
             FragmentManager fragmentManager = getSupportFragmentManager();
-            fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+            FragmentTransaction ft = fragmentManager.beginTransaction();
+            ft.replace(R.id.flContent, fragment);
+            ft.addToBackStack(null);
+            ft.commit();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -149,5 +153,10 @@ public class MainActivity extends AppCompatActivity {
         menuItem.setChecked(true);
         setTitle(menuItem.getTitle());
         mDrawer.closeDrawers();
+    }
+
+    /* Fragment Events */
+    public void openPickup(View view) {
+        setupFragmentContent(PickupFragment.class);
     }
 }
