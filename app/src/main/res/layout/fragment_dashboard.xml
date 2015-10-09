@@ -20,11 +20,12 @@
                     android:text="@string/pickup"
                     android:onClick="openPickup"/>
                 <Button
-                    android:id="@+id/renewable_button"
+                    android:id="@+id/share_button"
                     android:layout_weight="1"
                     android:drawablePadding="4dp"
-                    android:drawableTop="@drawable/ic_infografias"
-                    android:text="@string/renewable_waste" />
+                    android:drawableTop="@drawable/ic_compartir"
+                    android:text="@string/share"
+                    android:onClick="openShare"/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
@@ -34,14 +35,15 @@
                     android:layout_weight="1"
                     android:drawablePadding="4dp"
                     android:drawableTop="@drawable/ic_actividades"
-
+                    android:onClick="openActivities"
                     android:text="@string/activities" />
                 <Button
                     android:id="@+id/education_button"
                     android:layout_weight="1"
                     android:drawablePadding="4dp"
                     android:drawableTop="@drawable/ic_educacion"
-                    android:text="@string/education" />
+                    android:text="@string/education"
+                    android:onClick="openEducation"/>
             </TableRow>
         </TableLayout>
     </ScrollView>

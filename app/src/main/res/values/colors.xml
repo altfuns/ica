@@ -7,4 +7,8 @@
     <color name="window_background">#F5F5F5</color>
     <color name="navigation_bar">#E0E0E0</color>
     <color name="button_color">#FFFFFFFF</color>
+    <color name="dark_green">#339999</color>
+    <color name="light_green">#99CC66</color>
+    <color name="gray">#CCCCCC</color>
+
 </resources>

@@ -16,12 +16,12 @@ import com.altfuns.ica.data.EventDataAccess;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link PickupFragment.OnFragmentInteractionListener} interface
+ * {@link EducationFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link PickupFragment#newInstance} factory method to
+ * Use the {@link EducationFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class PickupFragment extends Fragment {
+public class EducationFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -33,10 +33,6 @@ public class PickupFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    private RecyclerView mRecyclerView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
-
     /**
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
@@ -46,8 +42,8 @@ public class PickupFragment extends Fragment {
      * @return A new instance of fragment PickupFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static PickupFragment newInstance(String param1, String param2) {
-        PickupFragment fragment = new PickupFragment();
+    public static EducationFragment newInstance(String param1, String param2) {
+        EducationFragment fragment = new EducationFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -55,7 +51,7 @@ public class PickupFragment extends Fragment {
         return fragment;
     }
 
-    public PickupFragment() {
+    public EducationFragment() {
         // Required empty public constructor
     }
 
@@ -71,22 +67,7 @@ public class PickupFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_pickup, container, false);
-
-        mRecyclerView = (RecyclerView) view.findViewById(R.id.my_recycler_view);
-
-        // use this setting to improve performance if you know that changes
-        // in content do not change the layout size of the RecyclerView
-        mRecyclerView.setHasFixedSize(true);
-
-        // use a linear layout manager
-        mLayoutManager = new LinearLayoutManager(this.getContext());
-        mRecyclerView.setLayoutManager(mLayoutManager);
-
-        // specify an adapter (see also next example)
-        mAdapter = new EventAdapter(EventDataAccess.getAllPickups(this.getActivity()));
-        mRecyclerView.setAdapter(mAdapter);
-        // Inflate the layout for this fragment
+        View view = inflater.inflate(R.layout.fragment_education, container, false);
         return view;
     }
 

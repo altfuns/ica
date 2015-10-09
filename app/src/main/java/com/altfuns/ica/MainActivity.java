@@ -134,13 +134,13 @@ public class MainActivity extends AppCompatActivity {
         Class fragmentClass = DashboardFragment.class;
         switch(menuItem.getItemId()) {
             case R.id.nav_first_fragment:
-                //fragmentClass = FirstFragment.class;
+                fragmentClass = ICAFragment.class;
                 break;
             case R.id.nav_second_fragment:
-                //fragmentClass = SecondFragment.class;
+                fragmentClass = ShareFragment.class;
                 break;
             case R.id.nav_third_fragment:
-                //fragmentClass = ThirdFragment.class;
+                fragmentClass = ContactFragment.class;
                 break;
             default:
                 fragmentClass = DashboardFragment.class;
@@ -158,5 +158,17 @@ public class MainActivity extends AppCompatActivity {
     /* Fragment Events */
     public void openPickup(View view) {
         setupFragmentContent(PickupFragment.class);
+    }
+
+    public void openActivities(View view) {
+        setupFragmentContent(ActivityFragment.class);
+    }
+
+    public void openEducation(View view) {
+        setupFragmentContent(EducationFragment.class);
+    }
+
+    public void openShare(View view) {
+        setupFragmentContent(ShareFragment.class);
     }
 }

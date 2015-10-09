@@ -18,13 +18,13 @@
             <ImageView
                 android:layout_width="72dp"
                 android:layout_height="72dp"
-                android:src="@drawable/ic_recoleccion"
+                android:src="@drawable/ic_actividades"
                 android:padding="4dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/pickup"
+                android:text="@string/activities"
                 android:layout_gravity="center_vertical"
                 android:background="@drawable/oval_light_green_background"
                 android:paddingLeft="16dp"
