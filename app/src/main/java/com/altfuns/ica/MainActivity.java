@@ -1,7 +1,10 @@
 package com.altfuns.ica;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.content.pm.ResolveInfo;
 import android.content.res.Configuration;
+import android.os.Parcelable;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
@@ -23,6 +26,9 @@ import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawer;
@@ -136,9 +142,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.nav_first_fragment:
                 fragmentClass = ICAFragment.class;
                 break;
-            case R.id.nav_second_fragment:
-                fragmentClass = ShareFragment.class;
-                break;
+//            case R.id.nav_second_fragment:
+//                fragmentClass = ShareFragment.class;
+//                break;
             case R.id.nav_third_fragment:
                 fragmentClass = ContactFragment.class;
                 break;
@@ -169,6 +175,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openShare(View view) {
-        setupFragmentContent(ShareFragment.class);
+        //setupFragmentContent(ShareFragment.class);
+
+        String message = "Descarga gratis la app ICA en https://play.google.com/store/apps/details?id=com.altfuns.ica";
+        Intent share = new Intent(Intent.ACTION_SEND);
+        share.setType("text/plain");
+        share.putExtra(Intent.EXTRA_TEXT, message);
+
+        startActivity(Intent.createChooser(share, "Compartir ICA"));
     }
 }
