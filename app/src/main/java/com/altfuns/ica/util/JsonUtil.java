@@ -28,7 +28,7 @@ public class JsonUtil {
      */
     public static Gson getParser() {
         GsonBuilder gsonBuilder = new GsonBuilder();
-
+        gsonBuilder.setDateFormat("yyyy-MM-dd");
         return gsonBuilder.create();
     }
 
@@ -40,6 +40,7 @@ public class JsonUtil {
         GsonBuilder gsonBuilder = new GsonBuilder();
         gsonBuilder.registerTypeAdapter(byte[].class,
                 new ByteArrayToBase64TypeAdapter()).create();
+        gsonBuilder.setDateFormat("YYYY-MM-DD");
         return gsonBuilder.create();
     }
 

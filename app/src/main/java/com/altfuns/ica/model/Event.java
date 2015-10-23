@@ -24,6 +24,9 @@ public class Event {
     private String rating;
     @SerializedName("organization")
     private int organization;
+    @SerializedName("datetime")
+    private Date datetime;
+
 
 
     public String getTitle() {
@@ -72,5 +75,13 @@ public class Event {
 
     public void setOrganization(int organization) {
         this.organization = organization;
+    }
+
+    public Date getDatetime() {
+        return datetime;
+    }
+
+    public void setDatetime(Date datetime) {
+        this.datetime = datetime;
     }
 }

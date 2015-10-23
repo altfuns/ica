@@ -1,156 +1,130 @@
 [
   {
     "title" : "UNA Campus Sostenible - Recolección",
-    "date" : "8 de Octubre",
-    "location" : "Ruta 1 - Proveeduría/Carrera Administrativa/ Asesoría Jurídica. - CIDE, CIDEA, CIUNA, Casa Saltra.  Soda Padre Royo, Facultad de Ciencias de la Tierra y el Mar, Edificio Administrativo (Rectoría), Centro de Estudios Generales, Facultad de Ciencias Exactas y Naturales, Facultad de Ciencias Sociales, Vicerrectoría de Vida Estudiantil, Residencias Calderón Fournier, Sección de Vigilancia, FEUNA, Departamento de Salud, ASOUNA, Residencias ICOMVIS..",
-    "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
-  },
-  {
-    "title" : "UNA Campus Sostenible - Recolección",
-    "date" : "14 de Octubre",
-    "location" : "Ruta 2 - Plaza Heredia, COOPEUNA, Centro de Recreo SITUN, FBS, Colegio Humanístico, Biblioteca Infantil Míriam Álvarez, Sección de Transportes, Programa de Publicaciones e Impresiones OVSICORI, PRODEMI, Residencias Claudio Vásquez, INISEFOR, Museo de Cultura Popular, Finca Experimental Santa Lucía, Edificio de Registro y Financiero, Facultad de Filosofía y Letras, Éxito Académico, Biblioteca Joaquín García Monge.",
-    "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
-  },
-  {
-    "title" : "UNA Campus Sostenible - Recolección",
-    "date" : "15 de Octubre",
-    "location" : "Ruta 3 - Campus Benjamín Núñez, Facultad de Ciencias Sociales y Escuela de Informática.",
-    "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
-  },
-  {
-    "title" : "UNA Campus Sostenible - Recolección",
-    "date" : "19 de Octubre",
-    "location" : "Ruta 1 - Proveeduría/Carrera Administrativa/ Asesoría Jurídica. - CIDE, CIDEA, CIUNA, Casa Saltra.  Soda Padre Royo, Facultad de Ciencias de la Tierra y el Mar, Edificio Administrativo (Rectoría), Centro de Estudios Generales, Facultad de Ciencias Exactas y Naturales, Facultad de Ciencias Sociales, Vicerrectoría de Vida Estudiantil, Residencias Calderón Fournier, Sección de Vigilancia, FEUNA, Departamento de Salud, ASOUNA, Residencias ICOMVIS.. - Proveeduría/Carrera Administrativa/ Asesoría Jurídica. - CIDE, CIDEA, CIUNA, Casa Saltra.  Soda Padre Royo, Facultad de Ciencias de la Tierra y el Mar, Edificio Administrativo (Rectoría), Centro de Estudios Generales, Facultad de Ciencias Exactas y Naturales, Facultad de Ciencias Sociales, Vicerrectoría de Vida Estudiantil, Residencias Calderón Fournier, Sección de Vigilancia, FEUNA, Departamento de Salud, ASOUNA, Residencias ICOMVIS..",
-    "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
-  },
-  {
-    "title" : "UNA Campus Sostenible - Recolección",
-    "date" : "21 de Octubre",
-    "location" : "Ruta 2 - Plaza Heredia, COOPEUNA, Centro de Recreo SITUN, FBS, Colegio Humanístico, Biblioteca Infantil Míriam Álvarez, Sección de Transportes, Programa de Publicaciones e Impresiones OVSICORI, PRODEMI, Residencias Claudio Vásquez, INISEFOR, Museo de Cultura Popular, Finca Experimental Santa Lucía, Edificio de Registro y Financiero, Facultad de Filosofía y Letras, Éxito Académico, Biblioteca Joaquín García Monge. - Plaza Heredia, COOPEUNA, Centro de Recreo SITUN, FBS, Colegio Humanístico, Biblioteca Infantil Míriam Álvarez, Sección de Transportes, Programa de Publicaciones e Impresiones OVSICORI, PRODEMI, Residencias Claudio Vásquez, INISEFOR, Museo de Cultura Popular, Finca Experimental Santa Lucía, Edificio de Registro y Financiero, Facultad de Filosofía y Letras, Éxito Académico, Biblioteca Joaquín García Monge.",
-    "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
-  },
-  {
-    "title" : "UNA Campus Sostenible - Recolección",
-    "date" : "22 de Octubre",
-    "location" : "Ruta 3 - Campus Benjamín Núñez, Facultad de Ciencias Sociales y Escuela de Informática. - Campus Benjamín Núñez, Facultad de Ciencias Sociales y Escuela de Informática. - Campus Benjamín Núñez, Facultad de Ciencias Sociales y Escuela de Informática.",
-    "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
-  },
-  {
-    "title" : "UNA Campus Sostenible - Recolección",
     "date" : "26 de Octubre",
     "location" : "Ruta 1 - Proveeduría/Carrera Administrativa/ Asesoría Jurídica. - CIDE, CIDEA, CIUNA, Casa Saltra.  Soda Padre Royo, Facultad de Ciencias de la Tierra y el Mar, Edificio Administrativo (Rectoría), Centro de Estudios Generales, Facultad de Ciencias Exactas y Naturales, Facultad de Ciencias Sociales, Vicerrectoría de Vida Estudiantil, Residencias Calderón Fournier, Sección de Vigilancia, FEUNA, Departamento de Salud, ASOUNA, Residencias ICOMVIS..",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-10-26"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "28 de Octubre",
     "location" : "Ruta 2 - Plaza Heredia, COOPEUNA, Centro de Recreo SITUN, FBS, Colegio Humanístico, Biblioteca Infantil Míriam Álvarez, Sección de Transportes, Programa de Publicaciones e Impresiones OVSICORI, PRODEMI, Residencias Claudio Vásquez, INISEFOR, Museo de Cultura Popular, Finca Experimental Santa Lucía, Edificio de Registro y Financiero, Facultad de Filosofía y Letras, Éxito Académico, Biblioteca Joaquín García Monge.",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-10-28"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "29 de Octubre",
     "location" : "Ruta 3 - Campus Benjamín Núñez, Facultad de Ciencias Sociales y Escuela de Informática.",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-10-29"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "2 de Noviembre",
     "location" : "Ruta 1 - Proveeduría/Carrera Administrativa/ Asesoría Jurídica. - CIDE, CIDEA, CIUNA, Casa Saltra.  Soda Padre Royo, Facultad de Ciencias de la Tierra y el Mar, Edificio Administrativo (Rectoría), Centro de Estudios Generales, Facultad de Ciencias Exactas y Naturales, Facultad de Ciencias Sociales, Vicerrectoría de Vida Estudiantil, Residencias Calderón Fournier, Sección de Vigilancia, FEUNA, Departamento de Salud, ASOUNA, Residencias ICOMVIS..",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-02"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "4 de Noviembre",
     "location" : "Ruta 2 - Plaza Heredia, COOPEUNA, Centro de Recreo SITUN, FBS, Colegio Humanístico, Biblioteca Infantil Míriam Álvarez, Sección de Transportes, Programa de Publicaciones e Impresiones OVSICORI, PRODEMI, Residencias Claudio Vásquez, INISEFOR, Museo de Cultura Popular, Finca Experimental Santa Lucía, Edificio de Registro y Financiero, Facultad de Filosofía y Letras, Éxito Académico, Biblioteca Joaquín García Monge.",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-04"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "5 de Noviembre",
     "location" : "Ruta 3 - Campus Benjamín Núñez, Facultad de Ciencias Sociales y Escuela de Informática.",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-05"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "9 de Noviembre",
     "location" : "Ruta 1 - Proveeduría/Carrera Administrativa/ Asesoría Jurídica. - CIDE, CIDEA, CIUNA, Casa Saltra.  Soda Padre Royo, Facultad de Ciencias de la Tierra y el Mar, Edificio Administrativo (Rectoría), Centro de Estudios Generales, Facultad de Ciencias Exactas y Naturales, Facultad de Ciencias Sociales, Vicerrectoría de Vida Estudiantil, Residencias Calderón Fournier, Sección de Vigilancia, FEUNA, Departamento de Salud, ASOUNA, Residencias ICOMVIS..",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-09"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "11 de Noviembre",
     "location" : "Ruta 2 - Plaza Heredia, COOPEUNA, Centro de Recreo SITUN, FBS, Colegio Humanístico, Biblioteca Infantil Míriam Álvarez, Sección de Transportes, Programa de Publicaciones e Impresiones OVSICORI, PRODEMI, Residencias Claudio Vásquez, INISEFOR, Museo de Cultura Popular, Finca Experimental Santa Lucía, Edificio de Registro y Financiero, Facultad de Filosofía y Letras, Éxito Académico, Biblioteca Joaquín García Monge.",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-11"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "12 de Noviembre",
     "location" : "Ruta 3 - Campus Benjamín Núñez, Facultad de Ciencias Sociales y Escuela de Informática.",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-12"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "16 de Noviembre",
     "location" : "Ruta 1 - Proveeduría/Carrera Administrativa/ Asesoría Jurídica. - CIDE, CIDEA, CIUNA, Casa Saltra.  Soda Padre Royo, Facultad de Ciencias de la Tierra y el Mar, Edificio Administrativo (Rectoría), Centro de Estudios Generales, Facultad de Ciencias Exactas y Naturales, Facultad de Ciencias Sociales, Vicerrectoría de Vida Estudiantil, Residencias Calderón Fournier, Sección de Vigilancia, FEUNA, Departamento de Salud, ASOUNA, Residencias ICOMVIS..",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-16"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "18 de Noviembre",
     "location" : "Ruta 2 - Plaza Heredia, COOPEUNA, Centro de Recreo SITUN, FBS, Colegio Humanístico, Biblioteca Infantil Míriam Álvarez, Sección de Transportes, Programa de Publicaciones e Impresiones OVSICORI, PRODEMI, Residencias Claudio Vásquez, INISEFOR, Museo de Cultura Popular, Finca Experimental Santa Lucía, Edificio de Registro y Financiero, Facultad de Filosofía y Letras, Éxito Académico, Biblioteca Joaquín García Monge.",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-18"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "19 de Noviembre",
     "location" : "Ruta 3 - Campus Benjamín Núñez, Facultad de Ciencias Sociales y Escuela de Informática.",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-19"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "23 de Noviembre",
     "location" : "Ruta 1 - Proveeduría/Carrera Administrativa/ Asesoría Jurídica. - CIDE, CIDEA, CIUNA, Casa Saltra.  Soda Padre Royo, Facultad de Ciencias de la Tierra y el Mar, Edificio Administrativo (Rectoría), Centro de Estudios Generales, Facultad de Ciencias Exactas y Naturales, Facultad de Ciencias Sociales, Vicerrectoría de Vida Estudiantil, Residencias Calderón Fournier, Sección de Vigilancia, FEUNA, Departamento de Salud, ASOUNA, Residencias ICOMVIS..",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-23"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "25 de Noviembre",
     "location" : "Ruta 2 - Plaza Heredia, COOPEUNA, Centro de Recreo SITUN, FBS, Colegio Humanístico, Biblioteca Infantil Míriam Álvarez, Sección de Transportes, Programa de Publicaciones e Impresiones OVSICORI, PRODEMI, Residencias Claudio Vásquez, INISEFOR, Museo de Cultura Popular, Finca Experimental Santa Lucía, Edificio de Registro y Financiero, Facultad de Filosofía y Letras, Éxito Académico, Biblioteca Joaquín García Monge.",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-25"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "26 de Noviembre",
     "location" : "Ruta 3 - Campus Benjamín Núñez, Facultad de Ciencias Sociales y Escuela de Informática.",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-26"
   },
   {
     "title" : "UNA Campus Sostenible - Recolección",
     "date" : "30 de Noviembre",
     "location" : "Ruta 1 - Proveeduría/Carrera Administrativa/ Asesoría Jurídica. - CIDE, CIDEA, CIUNA, Casa Saltra.  Soda Padre Royo, Facultad de Ciencias de la Tierra y el Mar, Edificio Administrativo (Rectoría), Centro de Estudios Generales, Facultad de Ciencias Exactas y Naturales, Facultad de Ciencias Sociales, Vicerrectoría de Vida Estudiantil, Residencias Calderón Fournier, Sección de Vigilancia, FEUNA, Departamento de Salud, ASOUNA, Residencias ICOMVIS..",
     "schedule" : "De 8:00am a 5:00pm",
-    "organization" : 1
+    "organization" : 1,
+    "datetime" : "2015-11-30"
   }
 ]
